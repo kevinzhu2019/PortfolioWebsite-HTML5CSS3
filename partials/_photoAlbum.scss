@@ -1,0 +1,159 @@
+body .photoAlbum {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body .photoAlbum .top {
+    width: calc(65% - 20px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+        h1 {
+            width: 30%;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 800;
+            // border: 1px solid yellow;
+        }
+
+        .photoCategory {
+            // display: flex;
+            // justify-content: flex-start;
+            // align-items: flex-start;
+            display: block;
+            width: 70%;
+            // border: 1px solid yellow;
+        }
+
+            p {
+                font-family: 'Raleway', sans-serif;
+                // border: 1px solid yellow;
+            }
+
+                .links {
+                    padding-left: 0;
+                    // border: 1px solid yellow;
+                }
+
+                    li {
+                    display: inline-block;
+                    list-style-type: none;
+                    margin: 10px;
+                    margin-left: 0;
+                    // border: 1px solid yellow;
+
+                        a {
+                            text-decoration: none; 
+                            font-family: 'Raleway', sans-serif;
+                            font-weight: 600;
+                            color:grey;
+                            transition: all 1s ease-in;
+                        }
+                }
+}
+
+body .photoAlbum .top .photoCategory .links li:hover a {
+    font-weight: 800;
+    color: black;
+}
+
+body .photoAlbum .album {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+        .column {
+            width: 25%;
+        }
+
+            .extra {
+                display: none;
+            }
+
+            .gallery {
+                width: calc(100% - 20px);
+                margin: 10px;
+                text-align: center;
+                position: relative;
+
+                    img {
+                        width: 100%;
+                        max-width: 100%;
+                        display: block;
+                        margin: 10px 0;
+                    }
+
+                    .overlay {
+                        position: absolute;
+                        // margin-left: 10px;
+                        width: 100%;
+                        background: rgba(0, 0, 0, 0.7);
+                        text-align: center;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        opacity: 0;
+                        transition: opacity 0.5s;
+                        // border: 1px solid yellow;
+
+                            h3, p, i{
+                                padding: 5px;
+                                color: white;
+                            }    
+
+                            h3, p {
+                                text-align: center;
+                                margin: 0 auto;
+                                font-family: 'Raleway', sans-serif;
+                            }
+
+                            i {
+                                text-align: center;
+                                margin: 0 auto;
+                            }
+                    }
+            }
+}
+
+body .photoAlbum .narrow {
+    display: none;
+}
+
+body .photoAlbum .album .column .gallery:hover .overlay {
+    opacity: 1;
+}
+
+body .photoAlbum .narrow .column .gallery:hover .overlay {
+    opacity: 1;
+}
+
+body .photoAlbum .loadMore {
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 40px auto;
+    padding: 15px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .photoAlbum .loadMore a {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    
+    letter-spacing: 2px;
+    // border: 2px solid yellow;
+}

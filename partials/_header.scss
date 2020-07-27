@@ -1,0 +1,114 @@
+header nav.top {
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    .title {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    }
+
+    .narrowMenuBlock {
+        display: none;
+    }
+
+    .menu li {
+        font-family: 'Raleway', sans-serif;
+        display: inline-block;
+        list-style-type: none;
+        margin: 5px 10px;
+    }
+
+        a {
+            text-decoration: none;
+            list-style: none;
+            color: grey;
+            transition: all 1s ease-in-out;
+        }
+
+            i {
+                color: black;
+            }
+}
+
+header nav.top .menu li:hover a {
+    font-weight: 800;
+    color: black;
+}
+
+header .first {
+    background: rgb(198, 230, 226);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+        .narrow {
+            display: none;
+        }
+
+        .contents {
+            width: 80%; 
+            height: 50vh;
+            position: relative;
+            // border: 1px solid red;
+
+                .pinkBlock {
+                    background: rgb(243, 208, 214);
+                    width: 250px;
+                    height: 50px;
+                    // position: absolute;
+                    // top: 35%;
+                    // bottom: 50%;
+                    // left: 30%;
+                    // right: 50%;
+                    margin-top: 10%;
+                    // margin-bottom: 50%;
+                    margin-left: 20%;
+                    // margin-right: 50%;
+                }
+
+                .texts {
+
+                    position: absolute;
+                    top: 17%;
+                    // border: 1px solid green;
+
+                    h1 {
+                        display: block;
+                        margin-bottom: 10px;
+                        // padding-top: 70px;
+                        padding-left: 50px;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 4.5rem;
+                        font-weight: 800;
+                        letter-spacing: 13px;
+                        color: grey;
+                        // border: 1px solid yellow;
+                    }
+
+                    p {
+                        padding-left: 50px;
+                        font-family: 'Raleway', sans-serif;
+                        color: grey;
+                        letter-spacing: 3px;
+                        font-weight: 600;
+                        // border: 1px solid yellow;
+                    }
+                }
+        }
+
+        .arrow {
+            width: 30px;
+            height: 30px;
+            background: white;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+
+            a {
+                margin: 0 auto;
+            }
+        }
+}

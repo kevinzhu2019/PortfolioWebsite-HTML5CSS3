@@ -1,0 +1,89 @@
+body .skillsets {
+    background: rgb(197, 194, 194);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body .skillsets .tops {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // border: 1px solid yellow;
+    
+        h1 {
+            width: 33.33%;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 800;
+            font-size: 1.8rem;
+            // border: 1px solid yellow;
+        }
+        P {
+            padding-left: 20px;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 2px;
+            // border: 1px solid yellow;
+        }
+}
+
+body .skillsets .skills {
+    width: calc(65% + 20px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        .skill {
+            width: 33.33%;
+            margin: 10px;
+            padding: 20px;
+            background: white;
+
+                h1 {
+                    font-family: 'Noto Serif', serif;
+                    font-style: italic;
+                    font-weight: 400;
+                    color: grey;
+                    letter-spacing: 0;
+                }
+
+                h3 {
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-family: 'Raleway', sans-serif;
+                    color: grey;
+                    letter-spacing: 1px;
+                }
+
+                .readMore a {
+                    font-family: 'Noto Serif', serif;
+                    font-style: italic;
+                    text-decoration: none;
+                    color: rgb(184, 181, 181);
+                }
+        }
+}
+
+body .skillsets .bottom {
+    width: 5%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // border: 1px solid yellow;
+
+        i {
+            text-decoration: none;
+            color: black;
+        }
+}
+
+body .skillsets .bottom .grey i {
+    color: rgb(184, 181, 181);
+    // background: rgb(184, 181, 181);
+}
+

@@ -1,0 +1,100 @@
+body .events {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body .events .tops {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    // border: 1px solid yellow;
+
+        h1 {
+            display: block;
+            margin-top: 0;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 800;
+            font-size: 1.8rem;
+            width: 60%; 
+            // border: 1px solid yellow;
+        }
+
+        p {
+            font-family: 'Raleway', sans-serif;
+            margin-top: 0;
+            padding-left: 40px;
+            letter-spacing: 1px;
+            // border: 1px solid yellow;
+        }
+}
+
+body .events .sampleEvents {
+    width: calc(65% + 20px);
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+        .event {
+            width: calc(25% - 20px);
+            margin: 10px;
+            position: relative;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    max-width: 100%;
+                }
+
+                .floating {
+                    font-family: 'Noto Serif', serif;
+                    background: white;
+                    padding: 2px;
+                    position: absolute;
+                    width: 30px;
+                    height: 30px;
+                    top: 5%;
+                    left: 5%;
+
+                        h3 {
+                            margin: 0;
+                            // border: 1px solid yellow;
+                        }
+                }
+
+                h3, p {
+                    display: block;
+                    width: 100%;
+                    font-family: 'Raleway', sans-serif;
+                }
+
+                p .comments a {
+                    text-decoration: none;
+                    color: grey;
+                }
+        }
+}
+
+body .events .readMore {
+    width: 10%;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+
+        a {
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            color: white;
+        }
+}

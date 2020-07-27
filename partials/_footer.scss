@@ -1,0 +1,145 @@
+body footer .upper {
+    background: rgb(77, 71, 71);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body footer .upper .wholeUpper {
+    width: calc(65% + 20px);
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+body footer .upper .wholeUpper .contactUs {
+    width: calc(20% - 20px);
+    margin: 10px;
+
+        .socialMediaIcons {
+            padding: 0;
+            width: 100%;
+            // border: 1px solid yellow;
+        }
+    
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style-type: none;
+                border: 1px solid white;
+                border-radius: 50%;
+                background: white;
+                width: 25px;
+                height: 25px;
+                margin: 5px;
+                padding-left: 0;
+                float: left;
+
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
+                        // border: 1px solid yellow;
+                    }
+
+                        i {
+                            color: rgb(77, 71, 71);
+                            text-decoration: none;
+                            font-size: 10px;
+                        }
+            }
+}
+
+body footer .upper .aboutUs {
+    clear: both;
+    width: calc(30% - 20px);
+    margin: 10px;
+
+        .readMore a {
+            text-decoration: none;
+            color: white;
+            transition: all 1s;
+        }
+}
+body footer .upper .aboutUs .readMore:hover a {
+    font-weight: 700;
+}
+
+body footer .upper .usefulLinks {
+    width: calc(20% - 20px);
+    margin: 10px;
+}
+
+body footer .upper .usefulLinks ul {
+    // border: 1px solid yellow;
+    padding: 5px 0;
+
+        li {
+            display: block;
+            list-style-type: none;
+            margin: 5px auto;
+            // border: 1px solid yellow;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    transition: all 1s;
+                }
+        }
+}
+body footer .upper .usefulLinks ul li:hover a {
+    font-weight: 700;
+}
+
+body footer .upper .resentTwitters {
+    width: calc(30% - 20px);
+    margin: 10px;
+
+        .twitter {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            // border: 1px solid yellow;
+
+                .icon i {
+                    color: white;
+                    margin-right: 5px;
+                }
+
+                .rightPart {
+                    padding-top: 0;
+                    // border: 1px solid yellow;
+                
+                    p {
+                        // border: 1px solid red;
+                        margin-top: 0;
+                    }
+
+                    a {
+                        font-weight: 700;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+        }
+}
+
+body footer .bottom {
+    background: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+        h3 {
+            display: block;
+            margin: 0 auto;
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            text-align: center;
+        }
+}

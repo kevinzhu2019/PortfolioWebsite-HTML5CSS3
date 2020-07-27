@@ -1,0 +1,19 @@
+body .supportedLinks {
+    background: rgb(198, 230, 226);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+        .icons {
+            width: 65%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+                svg {
+                    width: 55px;
+                    height: 55px;
+                    // border: 1px solid yellow;
+                }
+        }
+}
